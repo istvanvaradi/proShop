@@ -1,4 +1,5 @@
 import React from "react";
+import Homescreen from "./Components/Homescreen"
 import Header from "./Components/Header"
 import Footer from "./Components/Footer" 
 import {Container} from "react-bootstrap"
@@ -8,7 +9,7 @@ function App() {
     <Header/>
     <main className="py-3$ ">
     <Container>
-    <h1>Welcome to proShop!</h1> 
+    <Homescreen/>
     </Container>
      </main>
      <Footer/>
